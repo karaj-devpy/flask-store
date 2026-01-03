@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 16px;
+    background-color: #010172;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 60px ;
+    font-family: "2  Yekan";
+}
+a{
+    text-decoration: none;
+}
+
+.container{
+
+}
+.login-box{
+    background-color: white;
+    width: 400px;
+    height: auto;
+    overflow: hidden;
+    box-shadow: 0 0 2px 0 darkgray;
+    border-radius: 5px;
+
+}
+
+
+/*sign in start*/
+.sign-in {
+    background-color: white;
+    margin: 50px;
+
+}
+.sign-in header{
+    text-align: center;
+}
+.sign-in h2{
+    color: #4b4b4b;
+    margin-bottom: 50px;
+    display: inline;
+}
+.sign-in form{
+    display: flex;
+    flex-direction: column;
+    outline: none;
+}
+.sign-in form span{
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #4b4b4b;
+}
+.sign-in form #username{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+}
+.sign-in form #password{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightgray;
+    border: none;
+    border-radius: 20px;
+}
+.sign-in form button{
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 10px 20px 10px;
+    background: #010172;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sign-in .options{
+    text-align: center;
+}
+.sign-in .options .checkbox{
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+.sign-in .options .checkbox span{
+    color: #010172;
+    font-size:0.9rem;
+}
+
+.sign-in .options .checkbox input {
+    display: none;
+}
+.sign-in .options .checkbox .checkmark{
+    width: 18px;
+    height: 18px;
+    border: 2px solid #010172;
+    border-radius: 4px;
+    background-color: white;
+    margin-right: 8px;
+    position: relative;
+}
+
+.sign-in .options .checkbox input:checked ~ .checkmark{
+    background-color: white;
+    border-color: #010172;
+}
+
+
+
+.sign-in .options .checkbox .checkmark::after {
+    content:'';
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 1px;
+    width: 5px;
+    height: 10px;
+    border: solid #010172;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+
+
+.sign-in .options .checkbox input:checked ~ .checkmark::after{
+    display: block;
+}
+
+
+
+.sign-in .options .f-pass{
+    border-bottom: 1px solid #c5c2c2;
+    margin-bottom: 20px;
+    padding: 10px 0;
+
+}
+.sign-in .options .f-pass a{
+    color: #8c8a8a;
+    font-size: 0.9rem;
+}
+.sign-up{
+    text-align: center;
+}
+.sign-up span{
+    font-size: 1rem;
+    color: #1a1a1a;
+
+}
+.sign-up a{
+    color: #010172;
+}
+.sign-up p{
+
+}
+/*sign in end*/
